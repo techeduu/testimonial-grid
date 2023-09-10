@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.parent-container{
+    background-color:#edf2f8;
+    width: 100%;
+    height:100vh;
+    position: relative;
+}
+.child-container{
+    width: 85%;
+    height: 85vh;
+    position: absolute;
+    top: 4%;
+    left: 8%;
+}
+/* flex-container1 */
+.flex-container1{
+    display: flex;
+}
+
+@media (max-width:600px) {
+    .flex-container1{
+        flex-direction: column;
+    }
+    .parent-container{
+        height: 400vh;
+    }
+    .Daniel-profile{
+        min-width: 110%;
+        min-height: 79vh;
+        position: relative;
+        right: 10%;
+    }
+    .Dtest{
+        width:89%;
+        margin-top: 59px;
+    }
+    .Dcomment{
+        margin-top: 15px;
+        width: 90%;
+    }
+    .svag-small{
+       position: absolute;
+       left: 57%;
+    }
+}
+
+
+
+
+img{
+    border-radius: 100%;
+    width: 70%;
+    border: 1px solid white;
+}
+
+/*Daniels profile*/
+.Daniel-profile{
+    background-color:  hsl(263, 55%, 52%);
+    border-radius: 10px;
+    width: 43%;
+    height: 40vh;
+    padding: 10px;
+    margin: 10px;
+}
+.daniels{
+    display: flex;
+}
+.dstatus{
+    color: white;
+    opacity: 50%;
+}
+.dname{
+    color: white;
+}
+svg{
+    position: relative;
+    left: 35%;
+}
+.Dtest{
+    color: white;
+    font-size:18px;
+    z-index: 1px;
+    position: relative;
+    bottom: 25px;
+}
+.Dcomment{
+    position: relative;
+    bottom: 20px;
+    color: white;
+    opacity: 50%;
+}
+/*Daniels profile end*/
+
+/* Jonathan profile */
+.jonathan-profile{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    width: 25%;
+    height: 40vh;
+    padding: 20px;
+    margin: 10px;
+}
+.jonathan{
+    display: flex;
+}
+.jnames{
+    color: white;
+}
+.jstatus{
+    color: white;
+    opacity: 50%;
+}
+.jtest{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.jcomment{
+    margin-top: 20px;
+    color: white;
+    opacity: 50%;
+}
+
+@media (max-width:600px) {
+    .jonathan-profile{
+        min-width: 110%;
+        height: 50vh;
+        position: relative;
+        right: 10%;
+    }
+}
+/* Jonthan profile end */
+
+/* Kira profile */
+.Kira-profile{
+    background-color: white;
+    border-radius: 10px;
+    width: 23%;
+    padding: 25px;
+    margin: 10px;
+}
+.kira{
+    display: flex;
+}
+.ktest{
+    margin-top: 20px;
+    font-size:20px;
+}
+.kcomment{
+    margin-top: 20px;
+    width: 90%;
+}
+@media (max-width:600px) {
+    .Kira-profile{
+        min-width: 103%;
+        position: absolute;
+        top: 320%;
+        right: 1px;
+    }
+    .ktest{
+        width: 200px;
+    }
+    .kcomment{
+        width: 100%;
+    }
+}
+/* Kira profile end */
+/* .flex-container1 end */
+
+/* flex-container2 */
+.flex-container2{
+    display: flex;
+}
+
+
+@media (max-width:600px) {
+    .flex-container2{
+        flex-direction: column;
+    }
+    .jeanette-Harmon{
+        position: absolute;
+        top: 165%;
+        right: 1px;
+        min-width: 107%;
+        min-height: 44vh;
+        background-color: white;
+    }
+    .jean-test{
+        min-width: 100%;
+    }
+    .jean-comment{
+        min-width: 100%;
+    }
+}
+
+/* jeanethe profile */
+.jeanette-Harmon{
+    background-color: white;
+    border-radius: 10px;
+    width: 25%;
+    position: absolute;
+    bottom: 1%;
+    padding: 15px;
+}
+.jeanette{
+    display: flex;
+}
+.jean-test{
+    margin-top:20px ;
+    font-size: 20px;
+    width: 80%;
+}
+.jean-comment{
+    margin-top: 20px;
+    width: 76%;
+}
+/* 
+Jeanette profile end */
+
+/* patrick abrams profile */
+.patrick-abrams{
+    background-color:hsl(217, 25%, 23%);
+    border-radius: 10px;
+    width: 45%;
+    position: absolute;
+    left: 26%;
+    bottom: 1px;
+    padding: 20px;
+}
+.patrick{
+    display: flex;
+}
+.pnames{
+    color: white;
+}
+.pstatus{
+    color: white;
+    opacity: 50%;
+}
+.ptest{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.pcomment{
+    color: white;
+    opacity: 50%;
+    margin-top: 20px;
+}
+@media (max-width:600px) {
+    .patrick-abrams{
+        position: absolute;
+        top: 220%;
+        left: 1px;
+        right: 100px;
+        min-width: 100%;
+        height: 80vh;
+    }
+    .ptest{
+        min-width: 109%;
+        margin-top: 10px;
+    }
+}
+
+/* patrick abrams profile ends */
+
+
+
+
+/* flex-container2 ended */
